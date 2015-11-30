@@ -7,3 +7,4 @@ FindBugs
 .project
 .settings
 *.class
+doc
