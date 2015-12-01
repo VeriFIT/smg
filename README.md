@@ -51,7 +51,7 @@ No link yet. You need to build the Javadoc with `gradle javadoc` :)
 
 You can run all unit-tests together with FindBugs and Checkstyle using `gradle check`.
 
-[![Build Status](https://travis-ci.org/petr-muller/smg.svg?branch=master)](https://travis-ci.org/petr-muller/smg)
+[![Build Status](https://travis-ci.org/petr-muller/smg.svg?branch=master)](https://travis-ci.org/VeriFIT/smg)
 
 ## License
 
