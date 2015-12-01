@@ -17,7 +17,7 @@ smg.addGlobalVariable(integerType, "global_integer");
 
 // Creates a function type for function 'main': returns integer, no parameters
 CFunctionType mainFunctionType = CFunctionType.createSimpleFunctionType(integerType);
-// Creates a function declaration for function main(): int main() 
+// Creates a function declaration for function main(): int main()
 smg.addStackFrame(new CFunctionDeclaration(mainFunctionType, "main", ImmutableList.of()));
 
 // Adds a local variable of integer type to SMG, called 'local_integer'
