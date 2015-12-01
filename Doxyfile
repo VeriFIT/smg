@@ -145,8 +145,12 @@ HTML_COLORSTYLE_HUE    = 220
 HTML_COLORSTYLE_SAT    = 100
 HTML_COLORSTYLE_GAMMA  = 80
 HTML_TIMESTAMP         = NO
-HTML_DYNAMIC_SECTIONS  = NO
+HTML_DYNAMIC_SECTIONS  = YES
 HTML_INDEX_NUM_ENTRIES = 100
+#---------------------------------------------------------------------------
+#-Configuration options related to the LATEX output
+#---------------------------------------------------------------------------
+GENERATE_LATEX         = NO
 #---------------------------------------------------------------------------
 #-Configuration options related to external references
 #---------------------------------------------------------------------------
@@ -161,7 +165,7 @@ PERL_PATH              = /usr/bin/perl
 #---------------------------------------------------------------------------
 CLASS_DIAGRAMS         = YES
 MSCGEN_PATH            =
-HIDE_UNDOC_RELATIONS   = YES
+HIDE_UNDOC_RELATIONS   = NO
 HAVE_DOT               = YES
 DOT_NUM_THREADS        = 0
 DOT_FONTNAME           = Helvetica
